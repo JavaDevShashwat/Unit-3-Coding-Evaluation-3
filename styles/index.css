@@ -1,0 +1,35 @@
+#navbar{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 100%;
+    padding: 10px 0;
+    background-color: aquamarine;
+}
+a{
+    text-align: right;
+    margin: 0 10px;
+    text-decoration: none;
+}
+h3{
+    margin: 0px 10px;
+}
+#form{
+    display: block;
+    width: 40%;
+    margin: 200px auto;
+    text-align: center;
+    border: solid 1px purple;
+    border-radius: 10px;
+    padding: 0 0 15px 0;
+}
+input, button{
+    margin: 10px auto;
+}
+input{
+    width: 60%;
+    height: 25px;
+}
+button{
+    width: 20%;
+    height: 25px;   
+}
